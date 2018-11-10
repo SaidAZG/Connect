@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Connect</string>
+
+
+    <!--  Home -->
+    <string name="txtHome_tit">Connect</string>
+    <string name="txtHome_crr">Correo:</string>
+    <string name="txtHome_pssw">Contraseña:</string>
+    <string name="txtHome_bttn_ent">Entrar</string>
+    <string name="txtHome_pdprv">
+        Al usar nuestra aplicación aceptas nuestras políticas de privacidad
+    </string>
+
+
+    <!-- Inicio/Ofertas -->
+    <!-- TODO obtener las especificaciones (txtvarOf) de la DB -->
+
+    <string name="txtFingCha_OfCer">Ofertas cercanas</string>
+    <string name="txtFingGha_Artic">Artículos</string>
+
+    <string name="txtstOf_Oct">Ocultar Detalles</string>
+
+    <string name="txtstOf_Sal">Salario:</string>
+    <string name="txtstOf_Desc">Descripción:</string>
+    <string name="txtstOf_Benf">Beneficios:</string>
+    <string name="txtstOf_ComR">Competencias Requeridas:</string>
+    <string name="txtstOf_Tel">Teléfono:</string>
+    <string name="txtstOf_Ubi">Ubicación:</string>
+
+    <string name="txtvarOf_Emp">Dot Software</string>
+    <string name="txtvarOf_Area">Tecnológias de la información</string>
+    <string name="txtvarOf_Pues">Programador Jr.</string>
+
+    <string name="txtvarOf_Sal"> $ 3·600 Mxn per month</string>
+    <string name="txtvarOf_Desc">
+
+        Comprendo que tus besos
+        jamás han de ser míos;
+        comprendo que en tus ojos
+        no me he de ver jamás;
+        y te amo, y en mis locos
+        y ardientes desvaríos
+        bendigo tus desdenes,
+        adoro tus desvíos,
+        y en vez de amarte menos
+        te quiero mucho más.
+
+    </string>
+    <string name="txtvarOf_Benf">
+
+        El cuerpo humano adulto promedio está compuesto por:
+        -agua (35 L)
+        -carbón (20 kg)
+        -amoníaco (4 L)
+        -Lima (1,5 kg)
+        -fósforo (800 g)
+        -sal (250 g)
+        -Salitre (100 g)
+        -azufre (80 g)
+        -flúor (7,5 g)
+        -Hierro (5 g)
+        -silicio (3 g)
+        -Un alma
+
+    </string>
+    <string name="txtvarOf_ComR">
+        -Tener entre 18 y 65 años
+        -Peso mínimo 50 Kg.
+        -Un ayuno breve de 2 horas para donar sangre y 4 horas para donar plaquetas
+        -No estar enfermo el día que acuda a la donación
+        -No haber padecido Hepatitis tipo B, tipo C, VIH-SIDA, Sífilis, etc.
+        -No tener múltiples parejas sexuales
+        -No haber estado internado en instituciones penales o mentales
+    </string>
+    <string name="txtvarOf_Tel">5535222804</string>
+    <string name="txtvarOf_Ubi">-47.1499994, -126.7166638</string>
+
+
+</resources>

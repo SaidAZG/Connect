@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Connect_V2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="RegisterTitle">Registro creado para:</string>
+    <string name="Next">Continuar</string>
+    <string name="Omit">Omitir</string>
+
+    <string name="Mail">Correo</string>
+    <string name="MailD">Correo Electronico</string>
+    <string name="Pass">Contraseña</string>
+    <string name="Name">Nombre(s)</string>
+    <string name="SurNameP">Apellido Paterno</string>
+    <string name="SurNameM">Apellido Materno</string>
+    <string name="Age">Edad</string>
+    <string name="Phone">Telefono</string>
+    <string name="Sex">Sexo</string>
+    <string name="SexM">Hombre</string>
+    <string name="SexF">Mujer</string>
+    <string name="Birth">Fecha de Nacimiento</string>
+
+    <string name="PerInfo">Información Personal</string>
+    <string name="ProInfo">Información Profesional</string>
+</resources>

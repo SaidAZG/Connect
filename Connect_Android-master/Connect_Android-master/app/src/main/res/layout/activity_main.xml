@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Col_Connect2"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/id_titConnectHome"
+
+        style="@style/Sty_TitConnectHome"
+
+        android:text="@string/txtHome_tit"
+        />
+
+    <TextView
+        android:id="@+id/id_CorreoHome"
+
+        style="@style/Sty_CorrHome"
+
+        android:text="@string/txtHome_crr"/>
+
+    <EditText
+        android:id="@+id/id_EdittxtCrrHome"
+
+        style="@style/Sty_edtCrrHome"
+
+        android:inputType="textEmailAddress"
+
+        />
+
+    <TextView
+        android:id="@+id/id_PasswordHome"
+
+        style="@style/Sty_PassHome"
+
+        android:text="@string/txtHome_pssw"
+        />
+
+
+    <EditText
+        android:id="@+id/id_EdittxtPassHome"
+
+        style="@style/Sty_edtPssHome"
+
+        android:inputType="textPassword"
+        />
+
+
+
+    <Button
+        android:id="@+id/id_ButtonEntrarHome"
+
+        style="@style/Sty_BottonHome"
+
+
+        android:text="@string/txtHome_bttn_ent"
+
+        />
+
+    <!-- TODO Esto se explica solo -->
+    <Button
+
+        android:id="@+id/id_ButtonRgHome"
+
+        android:layout_below="@id/id_ButtonEntrarHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/id_ButtonEntrarHome"
+        android:layout_alignEnd="@+id/id_ButtonEntrarHome"
+        android:background="@color/Col_Connect1"
+        android:layout_marginTop="2dp"
+        android:text="Registrar"
+
+        />
+
+    <TextView
+        android:id="@+id/id_PoliticHome"
+
+        style="@style/Sty_PliticasHome"
+
+        android:text="@string/txtHome_pdprv"
+        />
+
+
+    <!--TODO Styles  -->
+
+</RelativeLayout>

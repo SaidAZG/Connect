@@ -1,0 +1,42 @@
+{
+ "project_info": {
+    "project_number": "367111446508",
+    "firebase_url": "https://abcc-7109.firebaseio.com",
+    "project_id": "abcc-7109",
+    "storage_bucket": "abcc-7109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367111446508:android:bb0bcf4d87dfe0df",
+        "android_client_info": {
+          "package_name": "com.example.said.connect_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367111446508-eadgnpn1eoc8531a4nji13onq9fm2gg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXbeIjSVIGZZ2783kTksGeWl07A3zr6rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

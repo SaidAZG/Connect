@@ -1,0 +1,205 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--TODO cambiar a las fuentes adecuadas-->
+
+    <style name="Sty_TitConnectHome">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">55sp</item>
+
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+
+    </style>
+
+    <style name="Sty_CorrHome">
+        <item name="android:fontFamily">sans-serif-ligth</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">20sp</item>
+
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_below">@id/id_titConnectHome</item>
+
+    </style>
+
+    <style name="Sty_edtCrrHome">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/BlancoCachas</item>
+
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_alignStart">@id/id_CorreoHome</item>
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:layout_below">@id/id_CorreoHome</item>
+
+
+    </style>
+
+    <style name="Sty_PassHome">
+        <item name="android:fontFamily">sans-serif-ligth</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">20sp</item>
+
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_alignStart">@id/id_CorreoHome</item>
+        <item name="android:layout_below">@id/id_EdittxtCrrHome</item>
+
+
+
+
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/id_CorreoHome"
+        android:layout_below="@id/id_EdittxtCrrHome"
+    </style>
+
+    <style name="Sty_edtPssHome">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/BlancoCachas</item>
+
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_alignStart">@id/id_EdittxtCrrHome</item>
+        <item name="android:layout_alignEnd">@id/id_EdittxtCrrHome</item>
+        <item name="android:layout_below">@id/id_PasswordHome</item>
+
+    </style>
+
+    <style name="Sty_BottonHome">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/BlancoCachas</item>
+        <item name="android:textSize">20sp</item>
+
+        <item name="android:background">@color/Col_Connect1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_below">@id/id_EdittxtPassHome</item>
+        <item name="android:layout_alignStart">@id/id_EdittxtCrrHome</item>
+        <item name="android:layout_alignEnd">@id/id_EdittxtCrrHome</item>
+
+    </style>
+
+    <style name="Sty_PliticasHome">
+
+        <item name="android:fontFamily">sans-serif-ligth</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/Col_font2</item>
+        <item name="android:textSize">17sp</item>
+
+
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+    <style name="Sty_BtnChangIni">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/BlancoCachas</item>
+        <item name="android:textSize">15sp</item>
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/Col_Connect1</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    
+    <style name="Sty_TitinOfer">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">13sp</item>
+
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <style name="Sty_DetinOfer">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">11sp</item>
+
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="Sty_EmpinOfer">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">16sp</item>
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="Sty_AreinOfer">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">11sp</item>
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="Sty_PuestinOfer">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/Col_font0</item>
+        <item name="android:textSize">12sp</item>
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+</resources>
+
